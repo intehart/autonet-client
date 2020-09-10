@@ -1,0 +1,17 @@
+/*
+  * Settings for project
+  * Connecting in order of priority of files is extremely important!
+ */
+
+// Global settings
+@import 'settings/vars';
+@import 'settings/app';
+@import 'settings/typography';
+@import 'settings/page';
+
+// global components
+@import 'input/input';
+@import 'button/button';
+
+// auth-section
+@import 'sign-in/sign-in';

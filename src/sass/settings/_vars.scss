@@ -1,0 +1,22 @@
+/*
+ * Variables from project
+ * Use media : @media #{var}
+ * Use color : background: $black
+*/
+
+// Color
+$transparent: transparent;
+$black: #000;
+$white: #fff;
+$red: #FF0000;
+$athensGray: #f1f2f4;
+
+// Media
+$phone: '(max-width: 767px)';
+$phone-min: '(min-width: 320px)';
+$tablet: '(max-width: 1199px)';
+$tablet-min: '(min-width: 768px)';
+$desktop: '(min-width: 1200px)';
+$only-tablet: '(max-width: 1199px) and (min-width: 768px)';
+$only-desktop: '(min-width: 1200px)';
+$not-phone: '(min-width: 768px)';

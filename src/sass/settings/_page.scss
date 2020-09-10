@@ -1,0 +1,14 @@
+.page {
+  padding: 10px 25px;
+  margin: 0 0 0 72px;
+  background-color: $athensGray;
+
+  @media #{$only-tablet} {
+    padding: 8px;
+  }
+
+  @media #{$phone} {
+    margin: 72px 0 0;
+    padding: 12px 8px;
+  }
+}

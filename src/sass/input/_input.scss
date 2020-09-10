@@ -1,0 +1,10 @@
+.input {
+  &--300 {
+    width: 300px;
+  }
+  &--margin {
+    &:nth-child(n+2) {
+      margin-top: 12px;
+    }
+  }
+}
